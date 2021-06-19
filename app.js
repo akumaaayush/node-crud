@@ -7,7 +7,7 @@ const blogRoutes = require("./routes/blogRoutes");
 require("dotenv").config();
 
 //mongodb
-const dbURI = process.env.DB_URL;
+const dbURI = process.env.DB_URI;
 
 //connnecting mongoose
 try {
